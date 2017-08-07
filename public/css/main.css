@@ -1,0 +1,39 @@
+.contenedor-inicio {
+  background: -webkit-linear-gradient(#fce8d4, #fff);
+  padding-bottom: 10%; }
+
+.titulo-principal {
+  margin-top: 6%; }
+  .titulo-principal--txt {
+    font-family: "Cedarville Cursive", cursive;
+    color: #ef83b9; }
+
+.subtitulo-principal--txt {
+  font-family: "Quicksand", sans-serif;
+  color: #99bd95;
+  display: inline-block; }
+
+.titulo-seccion h4 {
+  font-family: "Cedarville Cursive", cursive;
+  color: #99bd95; }
+
+.contenedor-fotografia {
+  width: 100%;
+  height: 100%; }
+  .contenedor-fotografia__img {
+    width: 70%;
+    height: 70%; }
+
+.texto-descriptivo {
+  text-align: justify;
+  font-size: 1.5vw;
+  font-family: "Quicksand", sans-serif;
+  background-color: #fce8d4;
+  padding: 10%;
+  margin-top: 16%;
+  color: #446d6f; }
+
+.contenedor-habilidades {
+  background: -webkit-linear-gradient(#fff, #fce8d4); }
+
+/*# sourceMappingURL=main.css.map */

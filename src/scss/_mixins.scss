@@ -1,0 +1,26 @@
+$fuenteCursiva: 'Cedarville Cursive',
+cursive;
+$fuenteScript: 'Quicksand',
+sans-serif;
+$colorRosa:#ef83b9;
+$colorVerde: #99bd95;
+$colorDurazno: #fce8d4;
+
+
+;
+@mixin fuente-cursiva-principal {
+	font-family: $fuenteCursiva;
+	color: $colorRosa;
+}
+@mixin fuente-cursiva-titulos-secciones{
+	font-family: $fuenteCursiva;
+	color: $colorVerde;
+}
+
+@mixin fuente-script-principal {
+	font-family: $fuenteScript;
+	color: $colorVerde;
+}
+
+
+

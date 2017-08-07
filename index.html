@@ -12,6 +12,7 @@
 	<link rel="stylesheet" href="public/css/materialize.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="public/css/main.css">
 
 
@@ -19,7 +20,14 @@
 
 <body>
 	<!--INICIA SECCION INICIO-->
-	<section class="contenedor-inicio">
+	<section class="contenedor-inicio" id="inicio">
+			<!--audio-->
+<div class="row">
+	<audio controls autoplay class="col m1">
+  <source src="public/assets/audio/lullatone%20%20-%20%20a%20little%20song%20about%20snowdrops.mp3" type="audio/mpeg">
+</audio>
+</div>
+	
 		<!--titulo principal,nombre-->
 		<div class="row">
 			<div class=" titulo-principal col m6 offset-m3 col s6 offset-s4">
@@ -40,24 +48,49 @@
 				<img src="public/assets/imgenes/marcoFlorar3.png" alt="marco-floral-musical" class="responsive-img">
 			</div>
 		</div>
+		
+
+
 	</section>
 	<!--TERMINA SECCION INICIO-->
 
 	<!--INICIA NAVBAR-->
-	<!--<nav class="lime lighten-4">
-    <div class="nav-wrapper">
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="">Acerca de mi </a></li>
-        <li><a href="badges.html">Habilidades</a></li>
-        <li><a href="collapsible.html">Proyectos</a></li>
-      </ul>
-    </div>
-  </nav>-->
+	 
+<div class="contenedor-navegador">
+	<nav>
+	<li>
+			<a href="#inicio">Inicio</a>
+		</li>
+		<li>
+			<a href="#acerca-de">Acerca de Mi</a>
+		</li>
+		<li>
+			<a href="#habilidades">Habilidades</a>
+		</li>
+		<li>
+			<a href="#proyectos">Proyectos</a>
+		</li>
+		<li>
+			<a href="#contacto">Contacto</a>
+		</li>
+	</nav>
+
+</div>
+
+	
+	
+	
+	
+	
+	
+	
+	
+
 
 	<!--TERMINA NAVBAR-->
 
 	<!--INICIA ACERCA DE MI -->
-	<section class="contenedor-acerca-de">
+	<section class="contenedor-acerca-de" id="acerca-de">
 		<!--titulo-->
 		<div class="row">
 			<div class="col m12 s12 center titulo-seccion ">
@@ -72,7 +105,7 @@
 			<!--texto-->
 			<div class="col m4 offset-m1 s4 offset-s1">
 				<p class="texto-descriptivo">
-					Mi nombre es Sue Herrera y dentro de mis venas corren variables y notas músicales; Soy cellista de formación y hace poco comencé a crear con un nuevo ingrediente: Códigos.<br> Me estoy estrenando como front-end y en mis ratos libres me disfrazo de crossfitter.</p>
+					Mi nombre es Sue Herrera y dentro de mis venas corren variables y notas músicales; Soy violonchelista de formación y hace poco comencé a crear con un nuevo ingrediente: Códigos.<br> Me estoy estrenando como front-end y en mis ratos libres me disfrazo de crossfitter.</p>
 			</div>
 
 		</div>
@@ -81,7 +114,7 @@
 	<!--TERMINA ACERCA DE MI -->
 
 	<!--INICIA HABILIDADES-->
-	<section class="contenedor-habilidades">
+	<section class="contenedor-habilidades" id="habilidades">
 		<!--titulo habilidades-->
 		<div class="row">
 			<div class="col m12 s12 center titulo-seccion ">
@@ -174,6 +207,134 @@
 		</div>
 	</section>
 	<!--TERMINA HABILIDADES-->
+	 
+	
+	<!--INICIA SECCIÓN PROYECTOS-->
+	<section class="contenedor-proyectos" id="proyectos">
+	 <!--titulo-->
+		 <div class="row">
+			<div class="col m12 s12 center titulo-seccion ">
+				<h4 class="typing-titulos animated   swing">Algunos proyectos</h4>
+			</div>
+		</div>
+		
+<!--primer bloque de proyectos-->
+<div class="container">
+	<div class="row">
+		<div class="card col m5 offset-m1 ">
+
+			<div class="card-image">
+				<img class="activator" src="public/assets/imgenes/labcar.PNG">
+			</div>
+			<div class="card-reveal">
+				<span class="card-title ">Labcar<i class="material-icons right">close</i></span>
+				<span>
+				<a href="https://github.com/sueherrera30/lab-car-sue"><i class="material-icons center gray-text">code</i></a>
+					<a href="https://sueherrera30.github.io/lab-car-sue/"><i class="material-icons center gray-text">remove_red_eye</i></a>
+					
+				</span>
+				<p>Maquetado basado en una página web sobre servicio de transporte. En practica: css, html y framework.</p>
+			</div>
+		</div>
+		
+		<div class="card col m5 offset-m1 ">
+
+			<div class="card-image">
+				<img class="activator" src="public/assets/imgenes/mundosMagicos.PNG">
+			</div>
+			<div class="card-reveal">
+				<span class="card-title ">Mundos Mágicos<i class="material-icons right">close</i></span>
+				<span>
+					
+					<a href="https://github.com/sueherrera30/mundos-magicos"><i class="material-icons center gray-text">code</i></a>
+					<a href="https://sueherrera30.github.io/mundos-magicos/#conetenedor-general"><i class="material-icons center gray-text">remove_red_eye</i></a>
+				</span>
+				<p>Proyecto creado en hackatón #comoNiñas organizado por Epic Queen y always, acredor al 2do. lugar.
+				Busca enseñar a niñas el desarrollo de un pensamiento lógico através de un juego de preguntas.</p>
+			</div>
+		</div>
+	</div>
+	
+	<!--segundo bloque-->
+	<div class="row">
+		<div class="card col m5 offset-m1 ">
+
+			<div class="card-image">
+				<img class="activator" src="public/assets/imgenes/pokemon.PNG">
+			</div>
+			<div class="card-reveal">
+				<span class="card-title ">Pokedex<i class="material-icons right">close</i></span>
+				<span>
+				<a href="https://github.com/sueherrera30/pokemons-json-sue"><i class="material-icons center gray-text">code</i></a>
+					<a href="https://sueherrera30.github.io/pokemons-json-sue/public/#!"><i class="material-icons center gray-text">remove_red_eye</i></a>
+					
+				</span>
+				<p>Ejercicio sobre el consumo de la api de pokemón.
+				Muestra un listado con imagenes e información especifica de algunos de los pokemones existentes</p>
+			</div>
+		</div>
+		
+		<div class="card  col m5 offset-m1 ">
+
+			<div class="card-image">
+				<img class="activator" src="public/assets/imgenes/lyft.PNG">
+			</div>
+			<div class="card-reveal">
+				<span class="card-title ">Lyft<i class="material-icons right">close</i></span>
+				<span>
+					<a href="https://sueherrera30.github.io/Proyecto-Lyft-Bravo/"><i class="material-icons center gray-text">remove_red_eye</i></a>
+					<a href="https://github.com/sueherrera30/Proyecto-Lyft-Bravo"><i class="material-icons center gray-text">code</i></a>
+				</span>
+				<p>Proyecto Colaborativo que simula la pagina web de Lyft.
+				Se practica Html, Css y Js. </p>
+			</div>
+		</div>
+	</div>
+	
+	<!--bloque tres-->
+	<div class="row">
+		<div class="card col m5 offset-m1 ">
+
+			<div class="card-image">
+				<img class="activator" src="public/assets/imgenes/bootstrap.PNG">
+			</div>
+			<div class="card-reveal">
+				<span class="card-title ">Bootstrap<i class="material-icons right">close</i></span>
+				<span>
+					<a href="https://sueherrera30.github.io/freelancer-de-sue-con-grids/"><i class="material-icons center gray-text">remove_red_eye</i></a>
+					<a href="https://github.com/sueherrera30/freelancer-de-sue-con-grids"><i class="material-icons center gray-text">code</i></a>
+				</span>
+				<p>Ejemplo de maquetación con Css replicando una página de bootstrap.</p>
+			</div>
+		</div>
+		
+		<div class="card col m5 offset-m1 ">
+
+			<div class="card-image">
+				<img class="activator" src="public/assets/imgenes/ubicacionTacos.PNG">
+			</div>
+			<div class="card-reveal">
+				<span class="card-title ">Ubicación de tacos<i class="material-icons right">close</i></span>
+				<span>
+					<a href="https://sueherrera30.github.io/restaurantes-sue/"><i class="material-icons ">remove_red_eye</i></a>
+					<a href="https://github.com/sueherrera30/restaurantes-sue"><i class="material-icons center">code</i></a>
+				</span>
+				<p>Ejercicio de consumo de api de google maps en relación a la ubicación de 5 taquerias famosas del la CDMX. </p>
+			</div>
+		</div>
+	</div>
+	<!--texto final-->
+	<div class="row">
+			<div class="col m12 s12">
+				<h6 class="textos animated flipInX center"> y muchos más que podras ver en mi github.</h6>
+			</div>
+</div>
+</div>
+
+</section>
+	
+	<!--TERMINA SECCIÓN PROYECTOS-->
+	
 
 
 	<!--links de JS-->

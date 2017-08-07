@@ -1,4 +1,8 @@
 @charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0; }
+
 /* secci├│n inicio*/
 .contenedor-inicio {
   background: -webkit-linear-gradient(#fce8d4, #fff);
@@ -20,6 +24,30 @@
   color: #99bd95; }
 
 /*termina secci├│n inicio*/
+/*inicia navegador*/
+.contenedor-navegador {
+  width: 100%;
+  height: 10%;
+  background-color: red;
+  position: fixed;
+  /*nav{
+  	display: flex;
+  	flex-direction: row;
+  	justify-content: space-around;
+  	align-items: center;
+  }
+  
+  a{
+  	@include fuente-script-principal;
+  	padding: 10%;
+  }
+  li{
+  	display: flex;
+  	list-style: none;
+  	margin: 1%;
+  }*/ }
+
+/*termina navegador*/
 /*inicia secci├│n acerca de mi */
 .contenedor-fotografia {
   width: 100%;
@@ -70,5 +98,25 @@
   list-style: none; }
 
 /*termina seccion habilidades*/
+/*inicia secci├│n proyectos*/
+.contenedor-proyectos {
+  background: -webkit-linear-gradient(#fce8d4, #fff);
+  margin-button: 5%; }
+
+.card-reveal p {
+  font-family: "Quicksand", sans-serif;
+  color: #446d6f; }
+.card-reveal span {
+  font-family: "Quicksand", sans-serif;
+  color: #99bd95; }
+.card-reveal i {
+  color: #fcb576; }
+
+.textos {
+  font-family: "Quicksand", sans-serif;
+  color: #99bd95;
+  margin-left: 8%; }
+
+/*termina secci├│n proyectos*/
 
 /*# sourceMappingURL=main.css.map */

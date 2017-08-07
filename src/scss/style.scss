@@ -1,3 +1,7 @@
+body{
+margin: 0;
+padding: 0;
+}
 /* sección inicio*/
 @import'mixins';
 .contenedor-inicio {
@@ -23,6 +27,33 @@
 	@include fuente-cursiva-titulos-secciones;
 }
 /*termina sección inicio*/
+
+/*inicia navegador*/
+.contenedor-navegador{
+	width: 100%;
+	height: 10%;
+	background-color:red;
+	position: fixed;
+	
+	/*nav{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+	}
+	
+	a{
+		@include fuente-script-principal;
+		padding: 10%;
+	}
+	li{
+		display: flex;
+		list-style: none;
+		margin: 1%;
+	}*/
+}
+
+/*termina navegador*/
 
 /*inicia sección acerca de mi */
 .contenedor-fotografia {
@@ -76,6 +107,37 @@
 	color: $colorAzul;
 	list-style: none;
 }
+
+
 /*termina seccion habilidades*/
 
+/*inicia sección proyectos*/
+.contenedor-proyectos{
+	 background: -webkit-linear-gradient( #fce8d4,#fff);
+	 margin-button: 5%;
+	
+}
+
+
+.card-reveal {
+ p{
+	font-family: $fuenteScript;
+	color: $colorAzul;
+	
+ }
+	span{
+		@include fuente-script-principal
+	}
+	
+	i{
+		color: $colorDuraznoLetra;
+	}
+	
+}
+
+.textos{
+	@include fuente-script-principal;
+	margin-left: 8%;
+}
+/*termina sección proyectos*/
 

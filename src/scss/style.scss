@@ -1,7 +1,8 @@
+/* sección inicio*/
 @import'mixins';
 .contenedor-inicio {
 	 background: -webkit-linear-gradient(#fce8d4, #fff);
-	padding-bottom: 10%;
+	 padding-bottom: 5%;
 }
 
 .titulo-principal {
@@ -21,7 +22,9 @@
 .titulo-seccion h4 {
 	@include fuente-cursiva-titulos-secciones;
 }
+/*termina sección inicio*/
 
+/*inicia sección acerca de mi */
 .contenedor-fotografia {
 	width: 100%;
 	height: 100%;
@@ -38,11 +41,41 @@
 	background-color: $colorDurazno;
 	padding: 10%;
 	margin-top: 16%;
-	color:#446d6f;
+	color: $colorAzul;
 }
+/*termina seccion acerca de mi*/
 
+/*inicia sección habilidades*/
 .contenedor-habilidades{
 	 background: -webkit-linear-gradient( #fff,#fce8d4);
+	padding-top: 5%;
 }
+
+.carousel .carousel-item>img{
+	width: 60%;
+}
+
+.typing-subtitulos{
+	@include fuente-script-subtitulos;	
+}
+
+.subtitulos2{
+@include fuente-script-subtitulo2;	
+}
+.typing-subtitulos_blandas{
+ @include fuente-cursiva-titulos-secciones;
+ display: inline-block;
+}
+
+.contenedor-habilidades h5{
+	@include fuente-script-subtitulo2;	
+}
+
+.contenedor-habilidades li{
+	font-family: $fuenteScript;
+	color: $colorAzul;
+	list-style: none;
+}
+/*termina seccion habilidades*/
 
 

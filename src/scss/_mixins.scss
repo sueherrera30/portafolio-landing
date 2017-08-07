@@ -5,6 +5,8 @@ sans-serif;
 $colorRosa:#ef83b9;
 $colorVerde: #99bd95;
 $colorDurazno: #fce8d4;
+$colorAzul: #446d6f;
+$colorDuraznoLetra :#fcb576;
 
 
 ;
@@ -22,5 +24,13 @@ $colorDurazno: #fce8d4;
 	color: $colorVerde;
 }
 
+@mixin fuente-script-subtitulos{
+	font-family: $fuenteScript;
+	color: $colorAzul;
+	display: inline-block;
+}
 
-
+@mixin fuente-script-subtitulo2{
+	font-family: $fuenteScript;
+	color: $colorDuraznoLetra;
+}

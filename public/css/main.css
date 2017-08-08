@@ -28,24 +28,20 @@ body {
 .contenedor-navegador {
   width: 100%;
   height: 10%;
-  background-color: red;
-  position: fixed;
-  /*nav{
-  	display: flex;
-  	flex-direction: row;
-  	justify-content: space-around;
-  	align-items: center;
-  }
-  
-  a{
-  	@include fuente-script-principal;
-  	padding: 10%;
-  }
-  li{
-  	display: flex;
-  	list-style: none;
-  	margin: 1%;
-  }*/ }
+  background-color: pink; }
+  .contenedor-navegador nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; }
+  .contenedor-navegador a {
+    font-family: "Quicksand", sans-serif;
+    color: #99bd95;
+    padding: 10%; }
+  .contenedor-navegador li {
+    display: flex;
+    list-style: none;
+    margin: 1%; }
 
 /*termina navegador*/
 /*inicia secci├│n acerca de mi */
@@ -118,5 +114,7 @@ body {
   margin-left: 8%; }
 
 /*termina secci├│n proyectos*/
+.row {
+  margin-bottom: 0; }
 
 /*# sourceMappingURL=main.css.map */

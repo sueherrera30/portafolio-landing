@@ -29,22 +29,23 @@ padding: 0;
 /*termina sección inicio*/
 
 /*inicia navegador*/
-.contenedor-navegador{
+	.contenedor-navegador {
 	width: 100%;
 	height: 10%;
-	background-color:rgba(220, 214, 108,0.9);
-	
-	
-	nav{
+	background-color:rgba(220, 214, 108, 0.4);
+	display: none;
+
+	&__barra-nav{
 		display: flex;
 		flex-direction: row;
 		justify-content: space-around;
 		align-items: center;
+		
 	}
 	
 	a{
 		@include fuente-script-principal;
-		padding: 5%;
+		padding: 7%;
 	}
 	li{
 		display: flex;
@@ -55,7 +56,11 @@ padding: 0;
 
 /*termina navegador*/
 
+
 /*inicia sección acerca de mi */
+.contenedor-acerca-de{
+	margin-top:7%;
+}
 .contenedor-fotografia {
 	width: 100%;
 	height: 100%;
@@ -114,7 +119,7 @@ padding: 0;
 /*inicia sección proyectos*/
 .contenedor-proyectos{
 	 background: -webkit-linear-gradient( #fce8d4,#fff);
-	 margin-button: 5%;
+	 margin-button:5%;
 	
 }
 

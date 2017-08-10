@@ -19,6 +19,17 @@ body {
   color: #99bd95;
   display: inline-block; }
 
+/*media query para  inicio*/
+@media (max-width: 480px) {
+  .contenedor-inicio {
+    padding-top: 40%;
+    padding-bottom: 60%; }
+
+  .titulo-principal--txt {
+    font-size: 3em; }
+
+  .subtitulo-principal--txt {
+    font-size: 1.5em; } }
 /*termina secci├│n inicio*/
 /*inicia navegador*/
 .contenedor-navegador {
@@ -61,6 +72,15 @@ body {
   margin-top: 16%;
   color: #446d6f; }
 
+/*media query para acerca de */
+@media (max-width: 480px) {
+  .contenedor-navegador {
+    display: none; }
+
+  .texto-descriptivo {
+    font-size: 1.3em;
+    text-align: center;
+    margin-top: 0; } }
 /*termina seccion acerca de mi*/
 /*inicia secci├│n habilidades*/
 .contenedor-habilidades {
@@ -86,7 +106,7 @@ body {
 .subtitulo {
   font-family: "Cedarville Cursive", cursive;
   color: #99bd95;
-  margin-bottom: 10%; }
+  margin-bottom: 7%; }
 
 .subtitulos2 {
   font-family: "Quicksand", sans-serif;
@@ -107,6 +127,13 @@ body {
   color: #446d6f;
   list-style: none; }
 
+/*media query de habilidades*/
+@media (max-width: 480px) {
+  .carousel {
+    height: 200px; }
+
+  .subtitulos2 {
+    font-size: 1em; } }
 /*termina seccion habilidades*/
 /*inicia secci├│n proyectos*/
 .contenedor-proyectos {
@@ -126,6 +153,10 @@ body {
   font-family: "Quicksand", sans-serif;
   color: #99bd95;
   margin-left: 8%; }
+
+#proyectos {
+  padding-top: 10%;
+  padding-top: 5%; }
 
 /*termina secci├│n proyectos*/
 .row {
@@ -166,7 +197,18 @@ body {
   transform: rotate(0deg);
   font-size: 10em; }
 
-/*sake effect*/
-/*termian seccion cotnacto*/
+/*termina seccion cotnacto*/
+/*inicia footer*/
+footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 5%;
+  background-color: rgba(54, 95, 100, 0.3);
+  padding: 2%;
+  font-family: 'Cedarville Cursive', cursive;
+  color: #99bd95; }
+
+/*termina footer*/
 
 /*# sourceMappingURL=main.css.map */

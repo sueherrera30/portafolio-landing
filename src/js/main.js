@@ -6,7 +6,7 @@ var typed = new Typed('.subtitulo-principal--txt', {
 });
 
 var typed = new Typed('.typing-subtitulos', {
-	strings: ["TÉCNICAS"],
+	strings: ["técnicas"],
 	typeSpeed: 220,
 	loop: false,
 });
@@ -41,7 +41,7 @@ function aparicionNav() {
 /*subtitulos*/
 
 
-var subtitulos = document.getElementsByClassName('subtitulo');
+/*var subtitulos = document.getElementsByClassName('subtitulo');
 
 document.addEventListener("scroll",efectosSubtitulos);
 
@@ -58,6 +58,6 @@ for (i = 0; i < elements.length; i++) {
 
 }
 	}
-}
+}*/
 
 

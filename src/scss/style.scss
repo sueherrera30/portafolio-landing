@@ -23,9 +23,6 @@ padding: 0;
 	}
 }
 
-.titulo-seccion h4 {
-	@include fuente-cursiva-titulos-secciones;
-}
 /*termina sección inicio*/
 
 /*inicia navegador*/
@@ -83,29 +80,44 @@ padding: 0;
 
 /*inicia sección habilidades*/
 .contenedor-habilidades{
+	
 	 background: -webkit-linear-gradient( #fff,#fce8d4);
 	padding-top: 5%;
 }
-
+.carousel{
+	height: 250px;
+}
 .carousel .carousel-item>img{
 	width: 60%;
 }
 
+.subtituloAzul{
+	@include fuente-cursiva-titulos-seccionesAzul;
+	margin-bottom: 7%;	
+}
 .typing-subtitulos{
 	@include fuente-script-subtitulos;	
 }
 
+.subtitulo{
+	@include fuente-cursiva-titulos-secciones;
+	margin-bottom: 10%;	
+
+}
+
 .subtitulos2{
-@include fuente-script-subtitulo2;	
+@include fuente-script-subtitulo2;
+margin-top:100%; 	
+}
+.subtitulos3{
+@include fuente-script-subtitulo2;
+
 }
 .typing-subtitulos_blandas{
  @include fuente-cursiva-titulos-secciones;
  display: inline-block;
 }
 
-.contenedor-habilidades h5{
-	@include fuente-script-subtitulo2;	
-}
 
 .contenedor-habilidades li{
 	font-family: $fuenteScript;
@@ -148,3 +160,51 @@ padding: 0;
 .row{
 	margin-bottom: 0;
 }
+
+/*inicia sección cotnacto*/
+.separacion{
+	margin-top:5%;
+	margin-bottom: 5%;
+}
+
+.contenedor-contacto{
+		 background: -webkit-linear-gradient( #fff,rgba(220, 214, 108, 0.4));
+}
+
+.fa{
+	padding: 5%;
+}
+
+.fa-whatsapp{
+	color:#fcb576;
+	font-size: 5em;
+	transform: rotate(7deg)
+}
+
+.fa-envelope-o{
+	color:#446d6f;
+	font-size:5em;
+	transform: rotate(354deg)
+}
+
+.fa-linkedin{
+	color: #99bd95;
+	font-size: 5em;
+	transform: rotate(10deg)
+}
+
+.fa-github{
+	color:rgb(220, 214, 108);
+	font-size:5em;
+	transform: rotate(50deg)
+}
+
+.fa:hover{
+	transform: rotate(0deg);
+	font-size: 10em;
+}
+
+
+/*sake effect*/
+/*termian seccion cotnacto*/
+

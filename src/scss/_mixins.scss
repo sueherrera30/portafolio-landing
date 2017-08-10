@@ -19,6 +19,10 @@ $colorDuraznoLetra :#fcb576;
 	font-family: $fuenteCursiva;
 	color: $colorVerde;
 }
+@mixin fuente-cursiva-titulos-seccionesAzul{
+	font-family: $fuenteCursiva;
+	color: $colorAzul;
+}
 
 @mixin fuente-script-principal {
 	font-family: $fuenteScript;

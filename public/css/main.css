@@ -19,10 +19,6 @@ body {
   color: #99bd95;
   display: inline-block; }
 
-.titulo-seccion h4 {
-  font-family: "Cedarville Cursive", cursive;
-  color: #99bd95; }
-
 /*termina secci├│n inicio*/
 /*inicia navegador*/
 .contenedor-navegador {
@@ -71,15 +67,33 @@ body {
   background: -webkit-linear-gradient(#fff, #fce8d4);
   padding-top: 5%; }
 
+.carousel {
+  height: 250px; }
+
 .carousel .carousel-item > img {
   width: 60%; }
+
+.subtituloAzul {
+  font-family: "Cedarville Cursive", cursive;
+  color: #446d6f;
+  margin-bottom: 7%; }
 
 .typing-subtitulos {
   font-family: "Quicksand", sans-serif;
   color: #446d6f;
   display: inline-block; }
 
+.subtitulo {
+  font-family: "Cedarville Cursive", cursive;
+  color: #99bd95;
+  margin-bottom: 10%; }
+
 .subtitulos2 {
+  font-family: "Quicksand", sans-serif;
+  color: #fcb576;
+  margin-top: 100%; }
+
+.subtitulos3 {
   font-family: "Quicksand", sans-serif;
   color: #fcb576; }
 
@@ -87,10 +101,6 @@ body {
   font-family: "Cedarville Cursive", cursive;
   color: #99bd95;
   display: inline-block; }
-
-.contenedor-habilidades h5 {
-  font-family: "Quicksand", sans-serif;
-  color: #fcb576; }
 
 .contenedor-habilidades li {
   font-family: "Quicksand", sans-serif;
@@ -120,5 +130,43 @@ body {
 /*termina secci├│n proyectos*/
 .row {
   margin-bottom: 0; }
+
+/*inicia secci├│n cotnacto*/
+.separacion {
+  margin-top: 5%;
+  margin-bottom: 5%; }
+
+.contenedor-contacto {
+  background: -webkit-linear-gradient(#fff, rgba(220, 214, 108, 0.4)); }
+
+.fa {
+  padding: 5%; }
+
+.fa-whatsapp {
+  color: #fcb576;
+  font-size: 5em;
+  transform: rotate(7deg); }
+
+.fa-envelope-o {
+  color: #446d6f;
+  font-size: 5em;
+  transform: rotate(354deg); }
+
+.fa-linkedin {
+  color: #99bd95;
+  font-size: 5em;
+  transform: rotate(10deg); }
+
+.fa-github {
+  color: #dcd66c;
+  font-size: 5em;
+  transform: rotate(50deg); }
+
+.fa:hover {
+  transform: rotate(0deg);
+  font-size: 10em; }
+
+/*sake effect*/
+/*termian seccion cotnacto*/
 
 /*# sourceMappingURL=main.css.map */

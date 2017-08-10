@@ -4,6 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Sue Herrera</title>
 	<!--Links-->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -28,19 +29,19 @@
 	   <div class=" contenedor-navegador__barra-nav">
 	   	
 	 	<li>
-			<a href="#inicio">Inicio</a>
+			<a class="titulos-nav" href="#inicio">Inicio</a>
 		</li>
 		<li>
-			<a href="#acerca-de">Acerca</a>
+			<a class="titulos-nav" href="#acerca-de">Acerca</a>
 		</li>
 		<li>
-			<a href="#habilidades">Habilidades</a>
+			<a class="titulos-nav" href="#habilidades">Habilidades</a>
 		</li>
 		<li>
-			<a href="#proyectos">Proyectos</a>
+			<a class="titulos-nav" href="#proyectos">Proyectos</a>
 		</li>
 		<li>
-			<a href="#contacto">Contacto</a>
+			<a class="titulos-nav" href="#contacto">Contacto</a>
 		</li>
    
 	   </div>
@@ -82,8 +83,8 @@
 	<section class="contenedor-acerca-de" id="acerca-de">
 		<!--titulo-->
 		<div class="row">
-			<div class="col m12 s12 center titulo-seccion ">
-				<h4 class="subtitulo animated">Hola ¡mucho gusto!</h4>
+			<div class="col m12 s12 center">
+				<h3 class="subtitulo animated titulos-nav">Hola ¡mucho gusto!</h3>
 			</div>
 		</div>
 		<!--imagen-->
@@ -102,35 +103,26 @@
 
 	<!--TERMINA ACERCA DE MI -->
 
-	<!--INICIA HABILIDADES-->
+ <!--INICIA HABILIDADES-->
 	<section class="contenedor-habilidades" id="habilidades">
 		<!--titulo habilidades-->
 		<div class="row">
-			<div class="col m12 s12 center titulo-seccion ">
-				<h4 class="subtitulo typing-titulos animated   swing">Alugunas de mis habilidades</h4>
+			<div class="col m12 s12 center">
+				<h3 class="subtituloAzul typing-titulos animated   swing">Alugunas de mis habilidades</h3>
 			</div>
 		</div>
 		<!--habilidades técnicas-->
 		<div class="container">
-
-
 			<div class="row">
 				<div class="col m12 center">
-					<h4 class="typing-subtitulos"></h4>
-				</div>
+					<h4 class="subtitulo typing-subtitulos "></h4>
+				</div>	
 			</div>
 			<div class="row">
-				<div class="col m6 center">
+			<div class="col m2 center">
 					<h5 class="subtitulos2">Intermedio</h5>
 				</div>
-				<div class="col m6 center">
-					<h5 class="subtitulos2">básico</h5>
-				</div>
-			</div>
-
-
-			<div class="row">
-				<div class="col m6">
+				<div class="col m10">
 
 					<div class="carousel">
 						<a class="carousel-item" href="#one!"><img src="public/assets/imgenes/logos/html5.png"></a>
@@ -142,8 +134,12 @@
 					</div>
 
 				</div>
-
-				<div class="col m6">
+			</div>	
+             <div class="row">
+             	 <div class="col m2 center">
+					<h5 class="subtitulos2">básico</h5>
+				</div>    
+				<div class="col m10">
 
 					<div class="carousel">
 						<a class="carousel-item" href="#one!"><img src="public/assets/imgenes/logos/git.png"></a>
@@ -154,7 +150,7 @@
 						<a class="carousel-item" href="#five!"><img src="public/assets/imgenes/logos/react-logo.png"></a>
 					</div>
 
-				</div>
+				</div>	
 			</div>
 		</div>
 		<!--hanilidades blandas -->
@@ -172,7 +168,7 @@
 				</div>
 				<div class="row">
 					<div class="col m3 offset-m3">
-					<h5>Habilidades Blandas</h5>
+					<h5 class="subtitulos3">Habilidades Blandas</h5>
 						<ul>
 						    <li>Metodología Agile</li>
 							<li>Empática</li>
@@ -183,10 +179,11 @@
 						</ul>
 					</div>
 					<div class="col m3 offset-m1">
-					    <h5>otros...</h5>
+					    <h5 class="subtitulos3" >otros...</h5>
 						<ul>
 							<li>Violonchellista</li>
 							<li>Deportista</li>
+							<li>Inglés con certificaciones</li>
 						</ul>
 					</div>
 				</div>
@@ -195,14 +192,13 @@
 		</div>
 	</section>
 	<!--TERMINA HABILIDADES-->
-	 
 	
 	<!--INICIA SECCIÓN PROYECTOS-->
 	<section class="contenedor-proyectos" id="proyectos">
 	 <!--titulo-->
 		 <div class="row">
-			<div class="col m12 s12 center titulo-seccion ">
-				<h4 class="subtitulo typing-titulos animated   swing">Algunos proyectos</h4>
+			<div class="col m12 s12 center">
+				<h3 class="subtitulo typing-titulos animated   swing">Algunos proyectos</h3>
 			</div>
 		</div>
 		
@@ -307,14 +303,14 @@
 					<a href="https://sueherrera30.github.io/restaurantes-sue/"><i class="material-icons ">remove_red_eye</i></a>
 					<a href="https://github.com/sueherrera30/restaurantes-sue"><i class="material-icons center">code</i></a>
 				</span>
-				<p>Ejercicio de consumo de api de google maps en relación a la ubicación de 5 taquerias famosas del la CDMX. </p>
+				<p>Ejercicio de consumo de API de google maps en relación a la ubicación de 5 taquerias famosas del la CDMX. </p>
 			</div>
 		</div>
 	</div>
 	<!--texto final-->
 	<div class="row">
 			<div class="col m12 s12">
-				<h6 class="textos animated flipInX center"> y muchos más que podras ver en mi github.</h6>
+				<h6 class="textos animated flipInX center separacion"> y muchos más que podras ver en mi github.</h6>
 			</div>
 </div>
 </div>
@@ -323,8 +319,36 @@
 	
 	<!--TERMINA SECCIÓN PROYECTOS-->
 	
-
-
+     <!--INICIA SECCIÓN CONTACTO-->
+     <section class="contenedor-contacto" id="contacto">
+     	<div class="row">
+     	<!--titulo-->
+     		<div class="col12 center">
+     			<h3 class="subtituloAzul typing-titulos animated   swing">¡Conozcámonos!</h3>
+     		</div>
+		 </div>	
+    		<!--iconos-->
+     		<div class="row">
+     		<div class="col12 center">
+     		<a href="tel:5551005755">
+     			<i class="fa fa-whatsapp" aria-hidden="true"></i>
+     		</a>
+     		
+     		<a href="mailto:sueherrera30@gmail.com" target="_blank">
+     			<i class="fa fa-envelope-o" aria-hidden="true"></i>
+     		
+     		</a>
+     		<a href="https://www.linkedin.com/in/sue-lucero-martinez-herrera-443441146/" target="_blank">
+     			<i class="fa fa-linkedin" aria-hidden="true"></i>
+     		</a>
+     		
+     		<a href="https://github.com/sueherrera30">
+     			<i class="fa fa-github" aria-hidden="true"></i>
+     		</a>
+     	</div>
+		 </div>	
+     </section>
+     <!--TERMINA SECCIÓN CONTACTO-->
 	<!--links de JS-->
 	<script src="src/js/jquery-3.2.1.min.js"></script>
 	<script src="src/js/materialize.min.js"></script>

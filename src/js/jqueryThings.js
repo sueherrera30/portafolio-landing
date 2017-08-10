@@ -1,4 +1,5 @@
-   $(document).ready(function () {
+/*carousel*/ 
+$(document).ready(function () {
    	$('.carousel').carousel();
 
    	autoplay()
@@ -9,3 +10,17 @@
    	}
 
    });
+
+/*nav*/
+var $titulosLista = $('.titulos-nav');
+
+$titulosLista.mouseover(animarLi);
+
+function animarLi(){
+	console.log(this);
+  $titulosLista.addClass('animated flipInX');
+	
+};
+
+ 
+

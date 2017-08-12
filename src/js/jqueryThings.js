@@ -11,16 +11,6 @@ $(document).ready(function () {
 
    });
 
-/*nav*/
-var $titulosLista = $('.titulos-nav');
-
-$titulosLista.mouseover(animarLi);
-
-function animarLi(){
-	console.log(this);
-  $titulosLista.addClass('animated flipInX');
-	
-};
 
  
 

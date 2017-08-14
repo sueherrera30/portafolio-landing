@@ -6,18 +6,6 @@ var typed = new Typed('.subtitulo-principal--txt', {
 	loop: false
 });
 
-/*var typed = new Typed('.typing-subtitulos_blandas', {
-	strings: ["Además del código"],
-	typeSpeed: 100,
-	loop: true
-});
-var typed = new Typed('.typing-subtitulos_tecnicas', {
-	strings: ["Con la compu"],
-	typeSpeed: 100,
-	loop: true
-});*/
-
-
 
 /*termina funcionalidasd typing*/
 
@@ -38,7 +26,16 @@ function aparicionNav() {
 	else if(distancia < 560){
     navegador.style.display="none";
 	}
+	
+var mq = window.matchMedia( "(max-width: 480px)" );
+if (mq.matches) {
+    navegador.style.display = "none";
+}
 }
 
+
+
+
+/*inicializacion de wow*/
 
 new WOW().init();

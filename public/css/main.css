@@ -142,13 +142,19 @@ body {
     width: 10%;
     height: 10%; }
 
+.habilidades-mobile {
+  display: none; }
+
 /*media query de habilidades*/
 @media (max-width: 480px) {
-  .carousel {
-    height: 200px; }
-
   .subtitulos2 {
-    font-size: 1em; } }
+    font-size: 1em; }
+
+  .habilidades-desktop {
+    display: none; }
+
+  .habilidades-mobile {
+    display: block; } }
 /*termina seccion habilidades*/
 /*inicia secci├│n proyectos*/
 .contenedor-proyectos {
@@ -214,6 +220,10 @@ body {
 .contacto {
   padding: 10%; }
 
+/*media query de contacto */
+@media (max-width: 480px) {
+  .fa {
+    font-size: 4em; } }
 /*termina seccion cotnacto*/
 /*inicia footer*/
 footer {
@@ -227,5 +237,9 @@ footer {
   color: #99bd95; }
 
 /*termina footer*/
+/*media query para navbar*/
+@media (max-width: 480px) {
+  .contenedor-navegador {
+    display: none; } }
 
 /*# sourceMappingURL=main.css.map */

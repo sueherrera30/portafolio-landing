@@ -178,6 +178,18 @@ body {
   padding-top: 10%;
   padding-top: 5%; }
 
+.contenedor-img-proyetos {
+  position: relative; }
+  .contenedor-img-proyetos i {
+    position: absolute; }
+
+/*@media (max-width: 480px) {
+	
+.modal.modal-fixed-footer .modal-content {
+   max-width:50%;
+  
+	}
+}*/
 /*termina secci├│n proyectos*/
 .row {
   margin-bottom: 0; }
@@ -223,7 +235,7 @@ body {
 /*media query de contacto */
 @media (max-width: 480px) {
   .fa {
-    font-size: 4em; } }
+    font-size: 3em; } }
 /*termina seccion cotnacto*/
 /*inicia footer*/
 footer {
